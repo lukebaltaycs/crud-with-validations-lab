@@ -14,6 +14,7 @@ group :development, :test do
   gem 'capybara'
   gem 'pry'
 end
+gem 'faker'
 
 group :development do
 end

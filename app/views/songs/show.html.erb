@@ -1,0 +1,9 @@
+<p style="color:green"><%= flash[:notice]%></p>
+<h1><%= @song.title %></h1>
+<p><%= @song.release_year%></p>
+<p><%= @song.artist_name %></p>
+<p><%= @song.genre %></p>
+
+<%= link_to "All Songs", songs_path %>
+<%= link_to "Edit This Song", edit_song_path(@song)%>
+<%= link_to "Delete this Song", @song, method: 'delete'%>
